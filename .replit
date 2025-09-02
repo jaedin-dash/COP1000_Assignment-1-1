@@ -1,5 +1,6 @@
 entrypoint = "main.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
+print("I'm learning how to program)
 
 [nix]
 channel = "stable-23_05"
