@@ -1,18 +1,18 @@
 entrypoint = "main.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
-
+ "I'm learning how to program in Python."
 [nix]
 channel = "stable-23_05"
-
+ "I'm learning how to program in Python."
 [env]
 VIRTUAL_ENV = "$REPL_HOME/.pythonlibs"
 
 [unitTest]
 language = "python3"
-
+"That's awesome!"
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix"]
-
+"That's awesome!"
 [deployment]
 run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
